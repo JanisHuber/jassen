@@ -1,4 +1,7 @@
 {
+  "compilerOptions": {
+    "lib": ["deno.ns", "dom", "es2022"]
+  },
   "tasks": {
     "dev": "deno run --watch main.ts"
   },
