@@ -1,5 +1,5 @@
-import { SuitType } from "./suit";
-import { RankType } from "./rank";
+import { SuitType } from "./suit.ts";
+import { RankType } from "./rank.ts";
 
 export class Card {
   private suit: SuitType;
